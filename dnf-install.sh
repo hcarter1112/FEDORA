@@ -11,6 +11,7 @@ bat  \
 cairo-devel \
 chrony \
 copyq \
+corectrl \
 curl  \
 dbus-devel \
 dunst \
@@ -45,7 +46,6 @@ neovim \
 network-manager-applet \
 nitrogen \
 openssl-devel \
-offlineimpa \
 pam-devel  \
 picom  \
 pipewire \
@@ -56,6 +56,10 @@ pkgconf \
 polybar \
 pulseaudio-libs-devel \
 python3-pip \
+python3-cffi \
+python3-xcffib \
+python3-cairocffi \
+python3-dbus-next \
 qalc \
 qpwgraph \
 ranger \
@@ -87,5 +91,5 @@ vlc \
 dnf config-manager --add-repo https://rpm.librewolf.net/librewolf-repo.repo &&
 dnf install librewolf &&
 dnf group upgrade --with-optional Multimedia -y &&
-dnf group install --with-optional virtualization -y &&
+dnf group install --with-optional virtualization -y 
 
