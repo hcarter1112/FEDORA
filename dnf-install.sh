@@ -39,6 +39,8 @@ libXrandr \
 libjpeg-turbo-devel \
 libev-devel \
 libtool \
+lightdm \
+lightdm-gtk \
 lxappearance  \
 lxpolkit  \
 ncurses-devel \
@@ -88,6 +90,8 @@ v4l2loopback \
 vlc \
 &&
 
+dnf copr enable pennbauman/ports &&
+dnf install lf &&
 dnf config-manager --add-repo https://rpm.librewolf.net/librewolf-repo.repo &&
 dnf install librewolf &&
 dnf group upgrade --with-optional Multimedia -y &&

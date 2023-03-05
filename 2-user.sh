@@ -87,6 +87,12 @@ git clone https://github.com/svenstaro/rofi-calc.git &&
     make &&
     chmod +x tty-clock &&
 
+## Dragon (Drag and drop)
+  cd /home/ralldi/.gitstuff/ &&
+  git clone https://github.com/mwh/dragon &&
+  cd /home/ralldi/.gitstuff/dragon/ &&
+    make &&
+    make install &&
 ## Start user services
 systemctl --user enable pulsemods.service &&
 
