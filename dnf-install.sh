@@ -10,6 +10,7 @@ autoconf \
 automake \
 bat  \
 cairo-devel \
+cargo \
 chrony \
 copyq \
 corectrl \
