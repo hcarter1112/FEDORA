@@ -93,6 +93,10 @@ git clone https://github.com/svenstaro/rofi-calc.git &&
   cd /home/ralldi/.gitstuff/dragon/ &&
     make &&
     make install &&
+
+## Lazyvim install
+./lazyvim-install.sh
+
 ## Start user services
 systemctl --user enable pulsemods.service &&
 
