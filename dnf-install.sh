@@ -76,6 +76,7 @@ rofi-devel \
 sxhkd \
 util-linux-user \
 vim  \
+v4l2loopback \
 volumeicon \
 wget  \
 wireplumber \
