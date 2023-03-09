@@ -87,7 +87,7 @@ fi
     cargo install --path /home/ralldi/.gitstuff/ncspot &&
 
 ## Gsimplecal
-if [ ! -d /home/ralldi/.gitstuff/ncspot/ ]
+if [ ! -d /home/ralldi/.gitstuff/gsimplecal/ ]
 then
   cd /home/ralldi/.gitstuff/ &&
   git clone https://github.com/dmedvinsky/gsimplecal.git
@@ -98,7 +98,7 @@ fi
     make &&
 
 ## tty-clock
-if [ ! -d /home/ralldi/.gitstuff/ncspot/ ]
+if [ ! -d /home/ralldi/.gitstuff/tty-clock/ ]
 then
   cd /home/ralldi/.gitstuff/  &&
   git clone https://github.com/xorg62/tty-clock
@@ -108,7 +108,7 @@ fi
     chmod +x tty-clock &&
 
 ## Dragon (Drag and drop)
-if [ ! -d /home/ralldi/.gitstuff/ncspot/ ]
+if [ ! -d /home/ralldi/.gitstuff/dragon/ ]
 then
   cd /home/ralldi/.gitstuff/ &&
   git clone https://github.com/mwh/dragon
@@ -118,8 +118,9 @@ fi
     make install &&
 
 ## Lazyvim install
-./lazyvim-install.sh
+./lazyvim-install.sh &&
 
+./chezmoi.sh &&
 ## Start user services
 systemctl --user enable pulsemods.service &&
 
