@@ -60,6 +60,7 @@ pipewire-utils \
 pkgconf \
 polybar \
 pulseaudio-libs-devel \
+python3-devel \
 python3-pip \
 python3-cffi \
 python3-xcffib \
